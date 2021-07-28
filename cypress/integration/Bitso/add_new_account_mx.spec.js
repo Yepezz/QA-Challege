@@ -2,17 +2,17 @@
 
 describe("Testing the sign up process", () => {
 
-    
-
     it("Create new account - Mexico", ()=>{
 
         cy.visit("https://devmalta.bitso.com/register")
         cy.contains("Create an account")
 
         cy.contains("Got it").click({ force: true })
+
         cy.get('.styles__Form-sc-1cll17m-4 > .styles__Wrapper-sc-6qm6qf-6 > .css-m0do4z > .css-16ljna5 > .css-tdzd0p')
           .type("Mexico")
           .focused().tab()
+
         cy.get('#email')
           .type("ypz.omar@gmail.com")
           .should('have.value', 'ypz.omar@gmail.com')
@@ -34,6 +34,7 @@ describe("Testing the sign up process", () => {
         cy.contains('Start')
         .click({ force: true })
         
+        cy.contains('Verify your email').should('be.visible')
     })
 
 })

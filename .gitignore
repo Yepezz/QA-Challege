@@ -20,3 +20,9 @@ cypress/videos/examples/viewport.spec.js.mp4
 cypress/videos/examples/waiting.spec.js.mp4
 cypress/videos/examples/window.spec.js.mp4
 cypress/videos/Bitso/qachallenge.spec.js.mp4
+cypress/videos/Bitso/add_new_account_arg.spec.js.mp4
+cypress/videos/Bitso/add_new_account_mx.spec.js.mp4
+cypress/videos/Bitso/login_add_new_ben.spec.js.mp4
+cypress/screenshots/Bitso/login_add_new_ben.spec.js/Testing the new account and add beneficiary -- Verify wallet Argentina (failed).png
+cypress/screenshots/Bitso/login_add_new_ben.spec.js/Testing the new account and add beneficiary -- Verify wallet Mexico (failed).png
+cypress/screenshots/examples/misc.spec.js/my-image.png
